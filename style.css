@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.text-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+
+footer{
+    background-color:rgb(58, 8, 239);
+    color: white;
+    height: 10vh;
+}
+
+header{
+    background-color: rgb(58, 8, 239);
+
+}
+nav ul li {
+    list-style: none;
+    text-decoration:none;
+    color: white;
+    padding: 0 20px;
+    font-size: large;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(10, 9, 12);
+    font-weight: bolder;
+}
+.search{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+}
+.slider img{
+    height: 48vh;
+   margin-left: 200px;
+   margin-top: 5px;
+overflow: hidden;
+ }  
+
+ 
+.search input{
+    width: 490px;
+    height: 30px;
+    border-radius: 7px;
+   position: absolute;
+   border: 2px solid black;
+   padding: 0 12px;
+}
+.search img{
+    margin-top: -17px;
+    margin-left: 210px;
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+nav ul {
+   align-items: center;
+   display: flex;
+   justify-content: flex-start;
+   height: 60px;
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.container{
+  min-height: calc(100vh - 60px - 10vh);
+}
+.card h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.card2 h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+.card3 h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    } 
+.card4 h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    }
+.lines{
+ margin-left: 90vh; 
+ display:inline-flex;
+justify-content: center;
+ font-size: large;
+ font-weight: bolder;
+ }
+.lines2{
+margin-left: 90vh; 
+display:inline-flex;
+justify-content: center;
+font-size: large;
+font-weight: bolder;
+}
+.lines3{
+ margin-left: 90vh; 
+display:inline-flex;
+justify-content: center;
+font-size: large;
+font-weight: bolder;
+ }
+ .lines4{
+    margin-left: 90vh; 
+   display:inline-flex;
+   justify-content: center;
+   font-size: large;
+   font-weight: bolder;
+    }
+.carditem{
+margin-left: 50px; 
+ display: flex;
+ flex-direction: row;
+ gap: 90px;
+}
+.carditem2{
+display: flex;
+flex-direction: row;
+margin-left: 50px;
+gap: 90px;
+}
+.carditem3{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 90px;
+}
+.carditem4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 90px;}
+
